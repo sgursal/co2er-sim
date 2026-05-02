@@ -5,7 +5,7 @@ on:
 
 jobs:
   pre-commit:
-    name: Code quality
+    name: Run pre-commit hooks
     runs-on: ubuntu-latest
 
     steps:
