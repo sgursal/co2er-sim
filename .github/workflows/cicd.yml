@@ -1,0 +1,13 @@
+name: CI/CD
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened, labeled]
+    branches: ["main", "dev"]
+  push:
+    branches: ["main", "develop"]
+
+jobs:
+  code-quality:
+    name: Code quality
+    uses: ./.github/workflows/pre-commit.yml
