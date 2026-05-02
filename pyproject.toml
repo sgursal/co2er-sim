@@ -1,0 +1,15 @@
+[project]
+name = "co2er-sim"
+version = "0.1.0"
+description = "CO2 electroreduction simulation"
+authors = [
+  { name = "Shreya Gursal" }
+]
+dependencies = [
+  "numpy",
+  "matplotlib"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
