@@ -13,4 +13,4 @@ jobs:
 
   unit-tests:
     name: Run Unit Tests
-    uses: ./github/workflows/run_unit_tests.yml
+    uses: ./.github/workflows/run_unit_tests.yml
