@@ -1,2 +1,3 @@
-R = 8.3145
-F = 96485.22212
+class Constants:
+    GAS_CONSTANT = 8.3145  # J/(mol·K)
+    FARADAY_CONSTANT = 96485.22212  # C/mol
