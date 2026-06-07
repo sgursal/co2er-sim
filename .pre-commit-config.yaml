@@ -28,3 +28,5 @@ repos:
     hooks:
       - id: mypy
         additional_dependencies: [numpy]
+        args:
+          - --explicit-package-bases

@@ -10,3 +10,7 @@ jobs:
   code-quality:
     name: Code quality
     uses: ./.github/workflows/pre-commit.yml
+
+  unit-tests:
+    name: Run Unit Tests
+    uses: ./.github/workflows/run_unit_tests.yml
