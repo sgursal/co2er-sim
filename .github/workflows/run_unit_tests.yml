@@ -4,7 +4,7 @@ on:
   workflow_call:
 
 jobs:
-  pre-commit:
+  unit-tests:
     name: Run co2er units tests
     runs-on: ubuntu-latest
 
